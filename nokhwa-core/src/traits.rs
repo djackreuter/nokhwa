@@ -223,8 +223,8 @@ pub trait CaptureTrait {
     //         &frame,
     //         ImageDataLayout {
     //             offset: 0,
-    //             bytes_per_row: width_nonzero,
-    //             rows_per_image: height_nonzero,
+    //             bytes_per_row: Some(width_nonzero),
+    //             rows_per_image: Some(height_nonzero),
     //         },
     //         texture_size,
     //     );
